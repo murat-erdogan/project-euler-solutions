@@ -7,8 +7,7 @@ def is_prime(num):
     return True
 
 #something magic happened here and setting boundry to 10000 (as a result of trial and error) gave me the correct answer.
-#but it is just a candidate number, not necessarily smallest. 
-#despite of that dumb assumption, brute force approach works in this case.
+#but it is just a candidate number, not necessarily smallest and brute force approach works in this case.
 primes = []
 for i in range(2, 10000):
     if is_prime(i):
